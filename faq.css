@@ -498,11 +498,12 @@ ul{
  }
 }
 @media (max-width:340px) {
-}
+
 .menu img{
   width: 250px;
   margin-left: -2em;
 
+}
 }
 .second{
 
