@@ -87,7 +87,7 @@ background-color: rgb(242, 247, 248);
  height:36vh;
 
   background-color:  #ffffff;
-  box-shadow: 2px 2px 2px 2px rgb(107, 106, 106);
+  box-shadow: 0 2px 3px rgb(0, 0, 0, 0.2);
  
  
 
@@ -124,6 +124,10 @@ font-size: 14px;
 
  
 }
+.firstnav #nava .drop-menu li .yo{
+
+  margin-left: 14px;
+  } 
 .firstnav #nava .drop-menu .dropa{
   margin-top: 1.3em;
 }
@@ -173,7 +177,7 @@ margin-top: -1.3em;
   height:30vh;
  
    background-color:  #ffffff;
-   box-shadow: 2px 2px 2px 2px rgb(107, 106, 106);
+   box-shadow: 0 2px 3px rgb(0, 0, 0, 0.2);
     
  }
  .firstnav #nava .drop-menu2 li{
@@ -197,6 +201,7 @@ margin-top: -1.3em;
  }
  .firstnav #nava .drop-menu2 li strong{
 font-size: 14px;
+margin-left: 13px;
  }
 
 .firstnav #nava li a{
@@ -497,6 +502,16 @@ ul{
   margin-top: 1em;
  }
 }
+@media (max-width:524px) {
+
+  .menu img{
+    margin-left: -2.5em;
+    width: 250px;
+
+   
+  
+  }
+}
 @media (max-width:340px) {
 
 .menu img{
@@ -541,18 +556,23 @@ ul{
   height: 80px;
   border-radius: 10px;
   outline: none;
-  border: 1px solid rgb(134, 134, 223);
+  border: 1px solid rgb(223, 223, 235);
 
 }
 
-.secondb input::placeholder{
+.secondb ::placeholder{
   font-size: 16px;
   font-family: "Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight:500;
   font-style: normal;
-
+  /* font-size: 30px; */
+/* padding-left: 50px; */
   color: #d3c7c7;
+  margin-left: 7em;
+  padding-left: 24px;
+  /* margin-left: 2em; */
+
 }
 @media (max-width:835px) {
   .secondb input{
@@ -1064,6 +1084,7 @@ font-style: normal;
    /* 444 */
    .fourth{
     width: 100%;
+    padding: 50px 0px;
   }
   .fourth1{
     padding-top:70px;
@@ -1249,7 +1270,7 @@ font-style: normal;
     }
     }
     .eighteen{
-         
+         padding: 45px 0px;
       width: 67%;
       margin-inline: auto;
     }
@@ -1311,13 +1332,13 @@ font-style: normal;
     }  */
   
     .ninth{
-     
        display: flex;
        width:69%;
        margin-inline: auto;
        height: auto;
-      padding-bottom: 20px;
-       padding-top: 50px; 
+      /* padding-bottom: 20px;
+       padding-top: 50px;  */
+       padding: 50px 0px;
        flex-wrap: wrap;
      
       

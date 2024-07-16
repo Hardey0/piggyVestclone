@@ -56,6 +56,7 @@ background-color: rgb(242, 247, 248);
   height: 7vh;
   margin-left: 1.5em;
 
+
 }
 
 
@@ -97,7 +98,7 @@ background-color: rgb(242, 247, 248);
  height:36vh;
 
   background-color:  #ffffff;
-  box-shadow: 2px 2px 2px 2px rgb(107, 106, 106);
+  box-shadow: 0 2px 3px rgb(0, 0, 0, 0.2);
  
  
 
@@ -120,6 +121,10 @@ background-color: rgb(242, 247, 248);
  align-items: center;
 
 } 
+.firstnav #nava .drop-menu li .yo{
+
+  margin-left: 14px;
+  } 
 .firstnav #nava .drop-menu li:hover{
   background-color: rgb(242, 247, 248);
 }
@@ -183,7 +188,7 @@ margin-top: -1.3em;
   height:30vh;
  
    background-color:  #ffffff;
-   box-shadow: 2px 2px 2px 2px rgb(107, 106, 106);
+   box-shadow: 0 2px 3px rgb(0, 0, 0, 0.2);
     
  }
  .firstnav #nava .drop-menu2 li{
@@ -207,6 +212,7 @@ margin-top: -1.3em;
  }
  .firstnav #nava .drop-menu2 li strong{
 font-size: 14px;
+margin-left: 13px;
  }
 
 .firstnav #nava li a{
@@ -603,6 +609,16 @@ ul{
   }
   
 }
+@media (max-width:524px) {
+
+  .menu img{
+    margin-left: -2.5em;
+    width: 250px;
+
+   
+  
+  }
+}
 @media (max-width:320px) {
   .menu {
     display: flex;
@@ -988,6 +1004,9 @@ margin: 0px 16px 0px 0px;
 
   text-align: center;
   flex-wrap: wrap;
+ 
+  padding-top:70px;
+  padding-bottom: 40px;
 }
 .thirda h2{
   font-family: "Jakarta Sans", sans-serif;
@@ -996,6 +1015,7 @@ margin: 0px 16px 0px 0px;
   font-style: normal;
   font-size: 48px;
   color: #122231;
+  padding-bottom: 12px;
 
 }
 .thirda p{
@@ -1045,7 +1065,7 @@ margin: 0px 16px 0px 0px;
 font-size: 36px;
 margin: 25px 0px 0px;
 text-align: left;
-margin-left: 5px;
+margin-left: 30px;
 
 }
 .thirdb-col1 p{
@@ -1060,7 +1080,7 @@ font-size: 16px;
 width: 80%;
 line-height: 1.7;
 margin: 18px 0px 0px;
-margin-left: 5px;
+margin-left: 30px;
 }  
 .thirdb-col1 img{
   width: 270px;
@@ -1109,7 +1129,7 @@ margin-left: 2.2em;
 font-size: 36px;
 margin: 25px 0px 0px;
 text-align: left;
-margin-left: 5px;
+margin-left: 30px;
 width: 80%;
 flex-wrap: wrap;
 }
@@ -1124,7 +1144,7 @@ flex-wrap: wrap;
 font-size: 16px;
 margin: 18px 0px 0px;
 width: 80%;
-margin-left: 5px;
+margin-left: 30px;
 }  
 
 .thirdb-col3{
@@ -1147,7 +1167,7 @@ margin-left: 5px;
 font-size: 36px;
 margin: 25px 0px 0px;
 text-align: left;
-margin-left: 5px;
+margin-left: 30px;
 }
 .thirdb-col3 p{
   text-align: left;
@@ -1159,7 +1179,7 @@ margin-left: 5px;
   color: #3D4F60;
 font-size: 16px;
 margin: 18px 0px 0px;
-margin-left: 5px;
+margin-left: 30px;
 }  
 @media (max-width:1579px) {
   .third1{
@@ -1543,13 +1563,14 @@ margin-inline: auto;
   margin-inline: auto;
   width:70%;
   display: flex;
-  gap: 17px;
+  gap: 20px;
   flex-wrap: wrap;
   align-content: center;
  align-items: center;
  justify-content: center;
 
   padding-top: 40px;
+  padding-bottom: 55px;
   
 }
 .fifthc .fiftha img{
@@ -1740,6 +1761,7 @@ cursor: pointer;
 }
 .seventh{
   width: 100%;
+  padding: 70px 0px;
 
 }
 .seventh1{
@@ -1812,6 +1834,11 @@ width: 90%;
  .seventhc{
   align-items: center;
   padding-top: 40px;
+ }
+ .seventhd{
+  
+  display: flex;
+  gap: 22px;
  }
  .seventh1  .seventhb button{
  width: 150px;
@@ -2086,8 +2113,7 @@ width: 90%;
          width:69%;
          margin-inline: auto;
          height: auto;
-        padding-bottom: 20px;
-         padding-top: 50px; 
+         padding: 50px 0px; 
          flex-wrap: wrap;
        
         
