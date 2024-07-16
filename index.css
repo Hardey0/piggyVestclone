@@ -601,7 +601,7 @@ margin-inline: auto;
  animation-name: rot;
 animation-duration: 3s;
 animation-timing-function: ease-in-out;
-animation-delay: 1ms;
+animation-delay: 0s;
 animation-iteration-count: infinite; 
 animation-play-state: running;
 
@@ -1015,6 +1015,9 @@ margin-top: -4em;
     }
   
    @media (max-width:444px) {
+    .second2{
+      width: 94%;
+    }
     .second1 .seconda button{
       width: 160px;
       height: 60px;
@@ -1071,8 +1074,13 @@ margin-top: -4em;
 
   }
   @media (max-width:398px) {
+    .second2{
+    
+      width: 94%;
+    }
     .second2 .imgs .header{
-      width: 250px;
+      width: 300px;
+     
      }
      .imgs .img2 .headerIcon1{
       position: absolute;
