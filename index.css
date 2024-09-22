@@ -1428,8 +1428,40 @@ text-align: top;
   margin-top: -12em;
   margin-left: -1em;
   opacity: 0;
- 
+ /* animation-name:  go; */
+ /* animation-duration: 15s;
+ animation-iteration-count: infinite;
+ animation-play-state: running;
+ transition: ease-in-out; */
+ /* animation-timing-function: ease-in-out; */
+ /* animation-delay: 2s; */
+ /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
+/* @keyframes go{
+  0%{
+    opacity: 1;
+    
+
+  }
+  20%{
+    opacity: 1;
+  
+  }
+  40%{
+    opacity: 0;
+    
+  }
+  60%{
+    opacity: 0;
+    
+  }
+  80%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+} */
 
 .fourth .fourth2 .img4:focus-within{
   opacity: 1;
@@ -1470,6 +1502,7 @@ text-align: top;
  .fourth2:hover{
   transition: 2s;
   background-color: rgb(0, 51, 153); 
+  
  }
  svg{
   color: red;
